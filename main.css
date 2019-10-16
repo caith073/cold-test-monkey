@@ -1,0 +1,44 @@
+body, html {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----------------topnav--------------------*/
+
+.topnav {
+    background-color: #5176a6;
+    position: relative;
+    text-align: center;
+
+}
+
+/*-----------------button--------------------*/
+.btn {
+    float: right;
+}
+
+/*--------------containerfluid---------------*/
+
+.container-fluid {
+    height: 100vh;
+    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    padding: 0;
+}
+
+/*--------------containerheader---------------*/
+.container-header {
+    background-color: #5176a6;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+
+}
+/*--------------containertext---------------*/
+.container-text {
+    background-color: #5176a6;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+}
