@@ -26,10 +26,16 @@ body, html {
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 0;
 }
+.container-fluid-info {
+    height: 100vh;
+    background: url("images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
+    padding: 0;
+}
 
 /*--------------containerheader---------------*/
 .container-header {
     background-color: #5176a6;
+    height: 10%;
     text-align: center;
     color: #fff;
     opacity: 0.7;
