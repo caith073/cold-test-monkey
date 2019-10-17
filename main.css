@@ -26,16 +26,19 @@ body, html {
     margin: 6px;
     padding: 12, 0px;
     background-color: #d0d5d9;
-    border-color: #000;
+    border-color: #fff;
+    opacity: 0.5;
     text-decoration: none;
     cursor: pointer;
+    box-shadow: 1px 2px #4a4f4a;
 }
 .btn a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .btn:hover {
     background-color: #1b2226;
+    opacity: 0.5;
     transition: ease-in-out 0.25s;
 }
 .btn a:hover {
