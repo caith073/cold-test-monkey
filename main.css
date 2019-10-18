@@ -7,14 +7,12 @@ body, html {
 
 /*-----------------topnav--------------------*/
 
-.topnav {
+.navbar {
     background-color: #5176a6;
     position: relative;
 }
 
-.topnav-right {
-    float: right;
-}
+
 /*-----------------images--------------------*/
 
 
@@ -24,20 +22,20 @@ body, html {
 .btn {
     position: relative;
     margin: 6px;
-    padding: 12, 0px;
+    padding: 12 0px;
     background-color: #d0d5d9;
-    border-color: #fff;
-    opacity: 0.5;
+    border-color: #000;
+    opacity: 0.85;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 1px 2px #4a4f4a;
 }
 .btn a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .btn:hover {
     background-color: #1b2226;
+    border-color: #fff;
     opacity: 0.5;
     transition: ease-in-out 0.25s;
 }
@@ -60,8 +58,29 @@ body, html {
     align-items: center;
     justify-content: center;
     position: inherit;
+}
+/*--------------containerheader---------------*/
+
+.container-header {
+    background-color: #5176a6;
+    padding: 8px;
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    opacity: 0.85;
 
 }
+
+/*--------------containertext---------------*/
+.container-text {
+    background-color: #733646;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    opacity: 0.85;
+}
+
 .container-fluid-info {
     height: 100vh;
     background: url("images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
@@ -74,63 +93,24 @@ body, html {
     justify-content: center;
     position: inherit;
 }
+/*--------------featurescontainer---------------*/
 
-/*--------------containerheader---------------*/
-.container-header {
-    background-color: #5176a6;
-    padding: 8px;
-    margin: 2px;
-    position: relative;
-    text-align: center;
-    color: #fff;
-    opacity: 0.85;
+.flex-container {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
 
 }
 
-.col-lg-12{
-    margin: 2px;
-    padding: 2px;
-}
-/*--------------containertext---------------*/
-.container-text {
-    background-color: #733646;
-    position: relative;
-    text-align: center;
-    color: #fff;
-    opacity: 0.85;
+.row {
+    flex-wrap: wrap;
 }
 
-/*--------------footer---------------*/
-
-.footer {
-    background-color: #5176a6;
-}
-/*--------------footerfafa---------------*/
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-.fa:hover {
-    opacity: 0.7;
-    color: #d0d5d9;
+.flex-container-info {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
 }
 
-.fa-facebook {
-    color: #ffffff;
-}
-.fa-twitter {
-    color: #ffffff;
-}
-.fa-youtube {
-    color: #ffffff;
-}
-.fa-instagram {
-    color: #ffffff;
-}
-.fa-google {
-    color: #ffffff;
-}
+
+
