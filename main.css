@@ -112,5 +112,52 @@ body, html {
     padding: 5px;
 }
 
+/*-----------------footer--------------*/
+.footer {
+    display: flex;
+    background-color: #5176a6;
+    height: 120px;
+    width: 100%;
+}
+
+
+.fa {
+    display: inline-flex;
+    padding: 5px;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    margin: 3px 1px;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: #d0d5d9;
+}
+
+.fa-facebook {
+    color: #ffffff;
+}
+.fa-twitter {
+    color: #ffffff;
+}
+.fa-youtube {
+    color: #ffffff;
+}
+.fa-instagram {
+    color: #ffffff;
+}
+.fa-google {
+    color: #ffffff;
+}
+p.copyright {
+    text-align: center;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    padding: 20px;
+    margin: 2px;
+}
+
+
 
 
