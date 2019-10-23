@@ -11,9 +11,9 @@ body, html {
 
 .navbar {
     background-color: #5176a6;
-    display: flex;
-    margin: 0;
-    padding: 0;
+    width: auto;
+    margin: 2px;
+    padding: 2px;
 
 }
 
@@ -169,25 +169,29 @@ p.copyright {
 
 .form {
     background-color: #6f9abf;
-    translate:
-
-    display: block;
+    display: inline-block;
     margin: 10px;
     padding: 10px;
     opacity: 0.90;
     text-align: center;
-
-
+    align-content: center;
 }
 .container-fluid3 {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 0;
-
-
-
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
 }
 
-
+.col-12.my-5 {
+    margin: 0;
+    padding: 0;
+}
 
 
