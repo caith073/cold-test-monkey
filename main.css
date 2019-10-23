@@ -108,8 +108,9 @@ body, html {
 .flex-container {
     background-color: #5176a6;
     display: flex;
-    margin: 5px;
-    padding: 5px;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
 
 }
 
@@ -120,8 +121,9 @@ body, html {
 .flex-container-info {
     background-color: #5176a6;
     display: flex;
-    margin: 5px;
-    padding: 5px;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
 }
 
 /*-----------------footer--------------*/
