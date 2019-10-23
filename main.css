@@ -14,6 +14,7 @@ body, html {
     display: flex;
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -166,26 +167,24 @@ p.copyright {
 
 
 
-form {
+.form {
     background-color: #6f9abf;
-    position: absolute;
+    translate:
+
+    display: block;
     margin: 10px;
     padding: 10px;
     opacity: 0.90;
     text-align: center;
-    width: 50%;
+
+
 }
 .container-fluid3 {
-    height: 50vh;
+    height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: inherit;
+
+
 
 }
 
