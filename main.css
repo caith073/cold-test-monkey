@@ -1,6 +1,6 @@
 body, html {
     font-family: "Roboto", sans-serif;
-    background-color: #5176a6;
+    background-color: #fff;
     color: #fff;
     margin: 0px;
     padding: 0px;
@@ -69,10 +69,11 @@ body, html {
 
 .container-header {
     background-color: #5176a6;
-    padding: 8px;
     margin: 2px;
+    padding: 8px;
     position: relative;
     text-align: center;
+    align-content: center;
     color: #fff;
     opacity: 0.85;
 
@@ -81,8 +82,11 @@ body, html {
 /*--------------containertext---------------*/
 .container-text {
     background-color: #733646;
+    margin: 2px;
+    padding: 8px;
     position: relative;
     text-align: center;
+    align-content: center;
     color: #fff;
     opacity: 0.85;
 }
@@ -102,6 +106,7 @@ body, html {
 /*--------------featurescontainer---------------*/
 
 .flex-container {
+    background-color: #5176a6;
     display: flex;
     margin: 5px;
     padding: 5px;
@@ -113,6 +118,7 @@ body, html {
 }
 
 .flex-container-info {
+    background-color: #5176a6;
     display: flex;
     margin: 5px;
     padding: 5px;
@@ -189,9 +195,6 @@ p.copyright {
     position: inherit;
 }
 
-.col-12.my-5 {
-    margin: 0;
-    padding: 0;
-}
+
 
 
