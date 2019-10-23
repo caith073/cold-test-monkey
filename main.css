@@ -1,6 +1,7 @@
 body, html {
     font-family: "Roboto", sans-serif;
     background-color: #6f9abf;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +23,7 @@ body, html {
 /*-----------------button--------------------*/
 .btn {
     position: relative;
+    text-align: center;
     margin: 6px;
     padding: 12 0px;
     background-color: #d0d5d9;
@@ -51,7 +53,6 @@ body, html {
 .container-fluid {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
-    display: inline-block;
     padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,7 +119,7 @@ body, html {
 .footer {
     display: flex;
     background-color: #5176a6;
-    height: 120px;
+    color: #fff;
     width: 100%;
 }
 
@@ -154,11 +155,18 @@ body, html {
 p.copyright {
     text-align: center;
     color: #fff;
-    float: right;
     font-size: 12px;
     padding: 20px;
     margin: 2px;
 }
+
+/*-------------------index2.html forms-------------------*/
+
+.form-group {
+    text-align: center;
+}
+
+
 
 
 
