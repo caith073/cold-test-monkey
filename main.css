@@ -12,14 +12,24 @@ body, html {
 .navbar {
     background-color: #5176a6;
     width: auto;
-    margin: 2px;
-    padding: 2px;
+    margin: 5px;
+    padding: 10px;
 
 }
 
 
 /*-----------------images--------------------*/
-
+.logo {
+    background: url("images/cmlogodark02.PNG");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    width: auto;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 
 
