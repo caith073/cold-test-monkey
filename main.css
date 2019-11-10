@@ -182,9 +182,6 @@ p.copyright {
 }
 
 /*-------------------index2.html forms-------------------*/
-
-
-
 .form {
     background-color: #6f9abf;
     display: inline-block;
@@ -206,6 +203,19 @@ p.copyright {
     justify-content: center;
     position: inherit;
 }
+/*-------------------index3.html error page-------------------*/
+.card {
+    background-color: #5176a6;
+    display: inline-block;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+    color: #fff;
+}
+.error-page {
+    margin: 0;
+}
+
 
 
 
