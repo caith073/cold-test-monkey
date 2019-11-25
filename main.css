@@ -12,6 +12,7 @@ body, html {
 .navbar {
     background-color: #5176a6;
     width: auto;
+    height: auto;
     margin: 5px;
     padding: 10px;
 
@@ -24,7 +25,7 @@ body, html {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 120px;
+    min-height: 150px;
     width: auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -66,7 +67,7 @@ body, html {
 .container-fluid {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
-    padding: 0;
+    padding: 15px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -104,7 +105,7 @@ body, html {
 .container-fluid-info {
     height: 100vh;
     background: url("images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
-    padding: 0;
+    padding: 0px;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,16 +186,18 @@ p.copyright {
 .form {
     background-color: #6f9abf;
     display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    opacity: 0.90;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: #000;
     text-align: center;
     align-content: center;
 }
-.container-fluid3 {
+.container-fluid2 {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
-    padding: 0;
+    padding: 15px;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -206,15 +209,24 @@ p.copyright {
 /*-------------------index3.html error page-------------------*/
 .card {
     background-color: #5176a6;
-    display: inline-block;
-    text-align: center;
+    display: block;
     margin: 16px;
     padding: 8px;
     color: #fff;
 }
-.error-page {
-    margin: 0;
+.container-fluid3 {
+    height: 100vh;
+    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    padding: 15px;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
 }
+
 
 
 
