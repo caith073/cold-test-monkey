@@ -41,7 +41,7 @@ body, html {
     margin: 6px;
     padding: 12 0px;
     background-color: #d0d5d9;
-    border-color: #000;
+    border-color: #5176a6;
     opacity: 0.85;
     text-decoration: none;
     cursor: pointer;
@@ -229,6 +229,30 @@ p.copyright {
 
 /*-------------------media breakpoint 768------------------*/
 @media (max-width: 767px) {
+.body, html {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #5176a6;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+
+}
+.logo {
+    background: url("images/cmlogodark02.PNG");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    min-height: 75px;
+    width: 375px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 .container-header {
     background-color: #5176a6;
     margin-top: 50px;
@@ -239,29 +263,47 @@ p.copyright {
     color: #fff;
     opacity: 0.85;
     }
-    /*-----------------images--------------------*/
-.logo {
-    background: url("images/cmlogodark02.PNG");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 75px;
-    width: 375px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
+
 /*-----------------button--------------------*/
 .btn {
-    position: relative;
+    position: inherit;
     text-align: center;
-    margin: 6px;
-    padding: 12 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 5px;
     background-color: #d0d5d9;
     border-color: #000;
     opacity: 0.85;
     text-decoration: none;
     cursor: pointer;
+}
+.btn a {
+    color: #000;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #1b2226;
+    border-color: #fff;
+    opacity: 0.5;
+    transition: ease-in-out 0.25s;
+}
+.btn a:hover {
+    color: #fff;
+    transition: ease-in-out 0.25s;
+}
+
+/*-----------------form--------------------*/
+.form {
+    background-color: #6f9abf;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: #000;
+    text-align: center;
+    align-content: center;
+}
 }
 
 
