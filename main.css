@@ -25,6 +25,8 @@ body, html {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 5px;
+    border-color: #fff;
     min-height: 140px;
     width: 600px;
     transition: all .5s ease-in-out;
@@ -68,6 +70,7 @@ body, html {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
+    opacity: 0.85;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,6 +109,7 @@ body, html {
     height: 100vh;
     background: url("images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
     padding: 0px;
+    opacity: 0.85;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,8 +124,13 @@ body, html {
     background-color: #5176a6;
     display: flex;
     justify-content: center;
-    margin: 16px;
-    padding: 16px;
+    margin: 8px;
+    padding: 8px;
+
+}
+.col-12.col-sm-4 {
+    border: 5px;
+    border-color: #000;
 
 }
 
@@ -153,6 +162,7 @@ body, html {
     text-align: left;
     text-decoration: none;
     margin: 3px 1px;
+    cursor: pointer;
 }
 .fa:hover {
     opacity: 0.7;
@@ -230,7 +240,7 @@ p.copyright {
 /*-------------------media breakpoint 768------------------*/
 @media (max-width: 767px) {
 .body, html {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .navbar {
@@ -253,6 +263,9 @@ p.copyright {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+.container-fluid {
+
+}
 .container-header {
     background-color: #5176a6;
     margin-top: 50px;
@@ -268,8 +281,7 @@ p.copyright {
 .btn {
     position: inherit;
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 8px;
     padding: 5px;
     background-color: #d0d5d9;
     border-color: #000;
