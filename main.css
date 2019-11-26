@@ -1,6 +1,6 @@
 body, html {
     font-family: "Roboto", sans-serif;
-    background-color: #fff;
+    background-color: #5176a6;
     color: #fff;
     margin: 0px;
     padding: 0px;
@@ -13,7 +13,7 @@ body, html {
     background-color: #5176a6;
     width: auto;
     height: auto;
-    margin: 0px;
+    margin: 1px;
     padding: 10px;
 
 }
@@ -21,13 +21,13 @@ body, html {
 
 /*-----------------images--------------------*/
 .logo {
-    background: url("images/cmlogodark02.PNG");
+    background: url("images/cmlogonewdark03.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px;
     border-color: #fff;
-    min-height: 140px;
+    min-height: 170px;
     width: 600px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -42,24 +42,24 @@ body, html {
     text-align: center;
     margin: 6px;
     padding: 12 0px;
-    background-color: #d0d5d9;
-    border-color: #5176a6;
-    opacity: 0.85;
+    background-color: #1b2226;
+    border-color: #fff;
+    opacity: 0.95;
     text-decoration: none;
     cursor: pointer;
 }
 .btn a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .btn:hover {
-    background-color: #1b2226;
-    border-color: #fff;
+    background-color: #fff;
+    border-color: #000;
     opacity: 0.5;
     transition: ease-in-out 0.25s;
 }
 .btn a:hover {
-    color: #fff;
+    color: #000;
     transition: ease-in-out 0.25s;
 }
 
@@ -87,6 +87,7 @@ body, html {
     padding: 8px;
     position: relative;
     text-align: center;
+    box-shadow: 1px 1px; 
     align-content: center;
     color: #fff;
     opacity: 0.85;
@@ -95,14 +96,15 @@ body, html {
 
 /*--------------containertext---------------*/
 .container-text {
-    background-color: #733646;
+    background-color: #5176a6;
     margin-top: 50px;
     padding: 8px;
     position: relative;
     text-align: center;
+    box-shadow: 1px 1px;
     align-content: center;
     color: #fff;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 .container-fluid-info {
@@ -124,16 +126,15 @@ body, html {
     background-color: #5176a6;
     display: flex;
     justify-content: center;
-    margin: 8px;
+    margin: 1px;
     padding: 8px;
-
 }
-.col-12.col-sm-4 {
-    border: 5px;
-    border-color: #000;
-
+h5 {
+    text-align: center;
 }
-
+p {
+    text-align: center;
+}
 .row {
     flex-wrap: wrap;
 }
@@ -142,14 +143,15 @@ body, html {
     background-color: #5176a6;
     display: flex;
     justify-content: center;
-    margin: 16px;
-    padding: 16px;
+    margin: 1px;
+    padding: 8px;
 }
 
 /*-----------------footer--------------*/
 .footer {
     display: flex;
     background-color: #5176a6;
+    margin: 1px;
     color: #fff;
     width: 100%;
 }
@@ -252,12 +254,12 @@ p.copyright {
 
 }
 .logo {
-    background: url("images/cmlogodark02.PNG");
+    background: url("images/cmlogonewdark03.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
-    min-height: 75px;
+    min-height: 100px;
     width: 375px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -283,24 +285,24 @@ p.copyright {
     text-align: center;
     margin: 8px;
     padding: 5px;
-    background-color: #d0d5d9;
-    border-color: #000;
+    background-color: #1b2226;
+    border-color: #fff;
     opacity: 0.85;
     text-decoration: none;
     cursor: pointer;
 }
 .btn a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .btn:hover {
-    background-color: #1b2226;
-    border-color: #fff;
+    background-color: #fff;
+    border-color: #000;
     opacity: 0.5;
     transition: ease-in-out 0.25s;
 }
 .btn a:hover {
-    color: #fff;
+    color: #000;
     transition: ease-in-out 0.25s;
 }
 
@@ -316,6 +318,14 @@ p.copyright {
     text-align: center;
     align-content: center;
 }
+.footer {
+    display: flex;
+    background-color: #5176a6;
+    margin: 1px;
+    color: #fff;
+    width: 100%;
+}
+
 }
 
 
