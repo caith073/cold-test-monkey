@@ -29,9 +29,6 @@ body, html {
     border-color: #fff;
     min-height: 170px;
     width: 600px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 
@@ -42,9 +39,8 @@ body, html {
     text-align: center;
     margin: 6px;
     padding: 12 0px;
-    background-color: #1b2226;
+    background-color: #5176a6;
     border-color: #fff;
-    opacity: 0.95;
     text-decoration: none;
     cursor: pointer;
 }
@@ -53,13 +49,12 @@ body, html {
     text-decoration: none;
 }
 .btn:hover {
-    background-color: #fff;
-    border-color: #000;
-    opacity: 0.5;
+    background-color: #6f9abf;
+    border-color: #733646;
     transition: ease-in-out 0.25s;
 }
 .btn a:hover {
-    color: #000;
+    color: #733646;
     transition: ease-in-out 0.25s;
 }
 
@@ -285,7 +280,7 @@ p.copyright {
     text-align: center;
     margin: 8px;
     padding: 5px;
-    background-color: #1b2226;
+    background-color: #5176a6;
     border-color: #fff;
     opacity: 0.85;
     text-decoration: none;
@@ -297,12 +292,12 @@ p.copyright {
 }
 .btn:hover {
     background-color: #fff;
-    border-color: #000;
+    border-color: #733646;
     opacity: 0.5;
     transition: ease-in-out 0.25s;
 }
 .btn a:hover {
-    color: #000;
+    color: #733646;
     transition: ease-in-out 0.25s;
 }
 
@@ -312,9 +307,9 @@ p.copyright {
     display: inline-block;
     margin-top: 100px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 5px;
-    border-color: #000;
+    border-color: #fff;
     text-align: center;
     align-content: center;
 }
