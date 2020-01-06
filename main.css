@@ -65,14 +65,49 @@ body, html {
     height: 100vh;
     background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
-    opacity: 0.85;
+    opacity: 0.75;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    align-items: center;
     justify-content: center;
     position: inherit;
+}
+/*--------------Boxes-------------------------*/
+.box-container {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 50vh;
+}
+
+/*--------------Boxes-------------------------*/
+.box1 {
+    display: inline-block;
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    padding: 1em;
+    margin: 5px;
+    background-color: #5176a6;
+}
+.box2 {
+    display: inline-block;
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    padding: 1em;
+    margin: 5px;
+    background-color: #1b2226;
+}
+.box3 {
+    display: inline-block;
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    padding: 1em;
+    margin: 5px;
+    background-color: #733646;
 }
 /*--------------containerheader---------------*/
 
