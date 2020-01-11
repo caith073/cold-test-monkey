@@ -17,6 +17,18 @@ body, html {
     padding: 10px;
 
 }
+/*-----------------nav menu--------------------*/
+.nav-menu {
+    background-color: #5176a6;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-item:hover {
+    color: #1b2226;
+    text-decoration: none;
+}
 
 
 /*-----------------images--------------------*/
