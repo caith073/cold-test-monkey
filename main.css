@@ -89,7 +89,7 @@ body, html {
     position: inherit;
 }
 /*--------------Boxes-------------------------*/
-.box-container {
+.cards {
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -97,7 +97,7 @@ body, html {
 }
 
 /*--------------Boxes-------------------------*/
-.box1 {
+.card1 {
     display: inline-block;
     text-align: center;
     height: 50%;
@@ -107,7 +107,7 @@ body, html {
     margin: 5px;
     background-color: #5176a6;
 }
-.box2 {
+.card2 {
     display: inline-block;
     text-align: center;
     height: 50%;
@@ -117,7 +117,7 @@ body, html {
     margin: 5px;
     background-color: #1b2226;
 }
-.box3 {
+.card3 {
     display: inline-block;
     text-align: center;
     height: 50%;
@@ -216,6 +216,7 @@ p {
 }
 .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
     color: #d0d5d9;
 }
 
@@ -287,46 +288,6 @@ p.copyright {
     position: inherit;
 }
 
-/*-------------------media breakpoint 768------------------*/
-@media (max-width: 767px) {
-.body, html {
-    font-size: 12px;
-}
-
-.navbar {
-    background-color: #5176a6;
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-
-}
-.logo {
-    background: url("images/cmlogonewdark03.PNG");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 15px;
-    min-height: 100px;
-    width: 375px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-.container-fluid {
-
-}
-.container-header {
-    background-color: #5176a6;
-    margin-top: 50px;
-    padding: 8px;
-    position: relative;
-    text-align: center;
-    align-content: center;
-    color: #fff;
-    opacity: 0.85;
-    }
-
 /*-----------------button--------------------*/
 .btn {
     position: inherit;
@@ -374,8 +335,186 @@ p.copyright {
     width: 100%;
 }
 
+/*-------------------media breakpoint 40em-------------------*/
+@media (max-width: 40em) {
+.body, html {
+    font-size: 12px;
 }
 
+.navbar {
+    background-color: #5176a6;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
 
+}
+.logo {
+    background: url("images/cmlogodark02.PNG");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    min-height: 100px;
+    width: 375px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*-----------------nav menu--------------------*/
+.nav-menu {
+    background-color: #5176a6;
+}
+.nav-item {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 1px;
+}
+.nav-item:hover {
+    color: #1b2226;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+
+}
+/*------------------- container-fluid------------------*/
+.container-fluid {
+    height: 50vh;
+    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    padding: 15px;
+    opacity: 0.75;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: inherit;
+}
+
+/*--------------cards-------------------------*/
+.cards {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.card1{
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+.card2 {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+.card3 {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+/*------------------container-header-------------------*/
+.container-header {
+    background-color: #5176a6;
+    margin-top: 50px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    opacity: 0.85;
+}
+}
+
+/*------------------media breakpoint 60em--------------------*/
+@media (max-width: 60em) {
+.body, html {
+    font-size: 12px;
+}
+
+.navbar {
+    background-color: #5176a6;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+
+}
+.logo {
+    background: url("images/cmlogonewdark03.PNG");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    min-height: 100px;
+    width: 375px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*-----------------nav menu--------------------*/
+.nav-menu {
+    background-color: #5176a6;
+}
+.nav-item {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 1px;
+}
+.nav-item:hover {
+    color: #1b2226;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+
+}
+/*------------------- container-fluid------------------*/
+.container-fluid {
+    height: 50vh;
+    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    padding: 15px;
+    opacity: 0.75;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: inherit;
+}
+
+/*--------------cards-------------------------*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.card1{
+    flex: 1 0 100px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+.card2 {
+    flex: 1 0 100px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+.card3 {
+    flex: 1 0 100px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+/*------------------container-header-------------------*/
+.container-header {
+    background-color: #5176a6;
+    margin-top: 50px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    opacity: 0.85;
+}
+}
 
 
