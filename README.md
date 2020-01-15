@@ -7,9 +7,9 @@ Includes site links to transport, accommodation, local facilities and ski hire i
 
 ## UX
 
-User Stories
-As a customer I expect to be able to manage my group booking.
-As a customer I expect to be able to access information for other areas.
+### User Stories
+  * As a customer I expect to be able to manage my group booking.
+  * As a customer I expect to be able to access information for other areas.
 
 ## Strategy
 The design goal was to minimise the look and flow of the site, to be visually un-cluttered with a cool colour palette and with easy navigation throughout.
