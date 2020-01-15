@@ -22,6 +22,7 @@ I want the customer to be able to quickly access information about the companyâ€
 
 ## Skeleton â€“ *n.b. wireframes to be moved to separate area in github!!!*
 Landing Page Mobile wireframe - https://github.com/caith073/cold-test-monkey/blob/master/IMG_2287.JPG
+
 Landing Page Web wireframe - https://github.com/caith073/cold-test-monkey/blob/master/IMG_2288.JPG
 
 ## Surface
