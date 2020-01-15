@@ -26,7 +26,7 @@ Landing Page Mobile wireframe - https://github.com/caith073/cold-test-monkey/blo
 Landing Page Web wireframe - https://github.com/caith073/cold-test-monkey/blob/master/IMG_2288.JPG
 
 ## Surface
-The colour scheme was chosen by colour matching the landing page background images from Avoriaz using adobe color matcher.
+The colour scheme was chosen by colour matching the landing page background images from personal pictures of Avoriaz/morzine/Les Gets by using adobe color matcher.
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -73,7 +73,9 @@ Content
 
 ## Media
 
-All images used are taken and stored by Rob Caithness
+All images used are taken by and stored by Robert Caithness
+
+
 
 ## Acknowledgements
 
@@ -81,4 +83,5 @@ Inspiration for this project is taken from the ‘whiskey static page’ design 
 
 Logo design was from looka.com
 Favicon generated through realfavicongenerator.net
+Wikipedia text used for information about Avoriaz, Morzine and Les Gets 
 
