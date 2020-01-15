@@ -21,8 +21,8 @@ To give the user quick access to transport, accommodation, ski hire and local fa
 I want the customer to be able to quickly access information about the company’s available products, local area information with site links, easy to book and manage trip information and social link area.
 
 ## Skeleton – *n.b. wireframes to be moved to separate area in github!!!*
-Landing Page Mobile wireframe
-Landing Page Web wireframe
+Landing Page Mobile wireframe - https://github.com/caith073/cold-test-monkey/blob/master/IMG_2287.JPG
+Landing Page Web wireframe - https://github.com/caith073/cold-test-monkey/blob/master/IMG_2288.JPG
 
 ## Surface
 The colour scheme was chosen by colour matching the landing page background images from Avoriaz using adobe color matcher.
