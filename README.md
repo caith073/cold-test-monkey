@@ -30,11 +30,11 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 * Navigation Menu 
- *	Contact us form
- *	Transport information
- *	Accommodation
- *	Local Facilities 
-
+  *	Contact us form
+  *	Transport information
+  *	Accommodation
+  *	Local Facilities 
+ 
 ### Features Left to Implement
 * Another feature idea
 
