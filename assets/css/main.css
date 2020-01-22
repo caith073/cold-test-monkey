@@ -44,7 +44,7 @@ body {
 
 /*-----------------images--------------------*/
 .logo {
-    background: url("images/facemonkeylogolightIS.PNG");
+    background: url("/assets/images/facemonkeylogolightIS.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
