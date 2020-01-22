@@ -86,7 +86,7 @@ body {
 
 .container-fluid {
     height: 100vh;
-    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
     opacity: 0.75;
     -webkit-background-size: cover;
@@ -165,7 +165,7 @@ body {
 
 .container-fluid-info {
     height: 100vh;
-    background: url("images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimageflucontinfo.jpg") no-repeat bottom right fixed;
     padding: 0px;
     opacity: 0.85;
      -webkit-background-size: cover;
@@ -331,7 +331,7 @@ select {
 }
 .container-fluid2 {
     height: 100vh;
-    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
      -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -351,7 +351,7 @@ select {
 }
 .container-fluid3 {
     height: 100vh;
-    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
      -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -424,7 +424,7 @@ select {
 
 }
 .logo {
-    background: url("images/cmlogodark02.PNG");
+    background: url("/assets/images/cmlogodark02.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -455,7 +455,7 @@ select {
 /*------------------- container-fluid------------------*/
 .container-fluid {
     height: 50vh;
-    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
     opacity: 0.75;
     -webkit-background-size: cover;
@@ -515,7 +515,7 @@ select {
 
 }
 .logo {
-    background: url("images/cmlogonewdark03.PNG");
+    background: url("/assets/images/cmlogonewdark03.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -546,7 +546,7 @@ select {
 /*------------------- container-fluid------------------*/
 .container-fluid {
     height: 50vh;
-    background: url("images/testimage02resize.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/testimage02resize.jpg") no-repeat bottom right fixed;
     padding: 15px;
     opacity: 0.75;
     -webkit-background-size: cover;
