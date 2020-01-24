@@ -83,6 +83,9 @@ Logo design was from looka.com.
 
 Site Favicon generated through realfavicongenerator.net.
 
+GitPod contribution link
+ [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/<org>/<repo>)
+
 Content 1 | Content 2
 ----------|----------
 Content from cell 1 | Content mfrom cell 2
