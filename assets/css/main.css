@@ -1,6 +1,6 @@
 /*--------Body---------------*/
 body, html {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     background-color: #5176a6;
     color: #fff;
     margin: 0px;
@@ -35,7 +35,7 @@ body, html {
 
 /*-----------------images--------------------*/
 .logo {
-    background: url("/assets/images/facemonkeylogolightIS.PNG");
+    background: url("/assets/images/cmlogodarkPP01.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,6 +192,97 @@ p {
     justify-content: center;
     margin: 1px;
     padding: 8px;
+}
+/*---------------3rd Container---------*/
+.container-fluid-info1 {
+    height: 100vh;
+    background: url("/assets/images/CMS front page image 3.png") no-repeat bottom right fixed;
+    padding: 0px;
+    opacity: 0.85;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+}
+/*---------------Form---------*/
+.form {
+    background-color: #6f9abf;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: #000;
+    text-align: center;
+    align-content: center;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.label-normal {
+    font-weight: normal;
+}
+
+.pattern {
+    color: #808080;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.supports-color .color,
+.supports-date .date,
+.supports-time .time,
+.supports-month .mont {
+    display: none;
+}
+
+input,
+select {
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding: 0.25em 0.5em;
+    width: 30%;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    margin-bottom: 0.5em;
+    width: auto;
+}
+
+.button {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+    border-radius: 1px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 0.9375em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-right: 0.3125em;
+    margin-bottom: 0.3125em;
+    padding: 0.5em 0.6875em;
+    width: auto;
+}
+
+.button:active,
+.button:focus,
+.button:hover {
+    background-color: #005580;
+    border-color: #005580;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:active {
+    box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
 }
 
 /*-----------------footer--------------*/
@@ -415,13 +506,13 @@ select {
 
 }
 .logo {
-    background: url("/assets/images/cmlogodark02.PNG");
+    background: url("/assets/images/cmlogodarkPP01.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
     min-height: 100px;
-    width: 375px;
+    width: 500px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -506,13 +597,13 @@ select {
 
 }
 .logo {
-    background: url("/assets/images/cmlogonewdark03.PNG");
+    background: url("/assets/images/cmlogodarkPP01mini.PNG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
     min-height: 100px;
-    width: 375px;
+    width: 25em;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
